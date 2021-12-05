@@ -43,6 +43,6 @@ Users should be able to:
 
 ## Author
 
--   Website - [Muhammad Mahmoud](https://github.com/MuhammadM1998)
+-   GitHub - [Muhammad Mahmoud](https://github.com/MuhammadM1998)
 -   Frontend Mentor - [@MuhammadM1998](https://www.frontendmentor.io/profile/MuhammadM1998)
 -   Twitter - [@MuhammadM1998](https://www.twitter.com/MuhammadM1998)
