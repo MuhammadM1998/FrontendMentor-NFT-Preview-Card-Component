@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![1638729196236.png](image/README/1638729196236.png)
+![1638729196236.png](images/Screenshot.png)
 
 ### Links
 
