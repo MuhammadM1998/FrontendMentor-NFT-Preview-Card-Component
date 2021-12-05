@@ -1,0 +1,169 @@
+/*** Media ***
+- Mobile: 375px
+- Desktop: 1440px
+*/
+
+/*** General Styles ***/
+:root {
+	--soft-blue: hsl(215, 51%, 70%);
+	--cyan: hsl(178, 100%, 50%);
+	--main-bg: hsl(217, 54%, 11%);
+	--card-bg: hsl(216, 50%, 16%);
+	--line: hsl(215, 32%, 27%);
+	--white: hsl(0, 0%, 100%);
+}
+
+* {
+	font-family: 'Outfit', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	background-color: var(--main-bg);
+	display: grid;
+	place-content: center;
+}
+
+p {
+	font-size: 18px;
+}
+
+img {
+	max-width: 100%;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+/*** Page Styles ***/
+.card {
+	background-color: var(--card-bg);
+	width: 350px;
+	padding: 25px;
+	border-radius: 10px;
+	margin: auto;
+}
+
+section:not(:last-child) {
+	margin-bottom: 25px;
+}
+
+.item-image {
+	position: relative;
+}
+
+.item-image::after {
+	content: '';
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	top: 0;
+	left: 0;
+	background-color: var(--cyan);
+	opacity: 0;
+	border-radius: 10px;
+}
+
+.item-image:hover:after {
+	opacity: 0.5;
+}
+
+.item-image:hover .view {
+	opacity: 1;
+}
+
+.item-image .view {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	opacity: 0;
+}
+
+.item-image .nft-image {
+	border-radius: 10px;
+}
+
+.item-info .nft-title {
+	margin-bottom: 20px;
+	color: var(--white);
+	cursor: pointer;
+}
+
+.item-info .nft-title:hover {
+	color: var(--cyan);
+}
+
+.item-info .nft-description {
+	color: var(--soft-blue);
+	font-weight: 300;
+}
+
+.buy-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.buy-info > div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.buy-info > div > img {
+	margin-right: 10px;
+}
+
+.buy-info .nft-price p {
+	color: var(--cyan);
+	font-weight: 400;
+}
+
+.buy-info .nft-time p {
+	color: var(--soft-blue);
+	font-weight: 300;
+}
+
+.line {
+	background-color: var(--line);
+	border: none;
+	height: 1px;
+	margin-bottom: 15px;
+}
+
+.item-credits {
+	display: flex;
+	align-items: center;
+}
+
+.item-credits img {
+	width: 35px;
+	border: 1px solid var(--white);
+	border-radius: 50%;
+	margin-right: 15px;
+}
+
+.item-credits p {
+	color: var(--soft-blue);
+	font-weight: 300;
+}
+
+.item-credits .author {
+	color: var(--white);
+	cursor: pointer;
+}
+
+.item-credits .author:hover {
+	color: var(--cyan);
+}
