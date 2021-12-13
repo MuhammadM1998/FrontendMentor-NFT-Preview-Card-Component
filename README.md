@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
--   [Solution URL](https://github.com/MuhammadM1998/NFT-Preview-Card-Component)
--   [Live Site URL](https://muhammadm1998.github.io/NFT-Preview-Card-Component/)
+-   [Solution URL](https://github.com/MuhammadM1998/FrontendMentor-NFT-Preview-Card-Component)
+-   [Live Site URL](https://muhammadm1998.github.io/FrontendMentor-NFT-Preview-Card-Component/)
 
 ## My process
 
